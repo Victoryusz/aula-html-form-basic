@@ -1,0 +1,59 @@
+/* Estilização para o corpo da página */
+body {
+  font-family: Arial, sans-serif; /* Define a fonte principal do site */
+  background-color: #f4f4f4; /* Define a cor de fundo da página */
+  display: flex; /* Utiliza Flexbox para centralizar os elementos */
+  justify-content: center; /* Centraliza horizontalmente o conteúdo */
+  align-items: center; /* Centraliza verticalmente o conteúdo */
+  height: 100vh; /* Faz com que o corpo ocupe 100% da altura da viewport */
+}
+
+/* Estilização do contêiner que abriga o formulário de login */
+.login-container {
+  background: white; /* Fundo branco para o contêiner */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 8px; /* Arredonda os cantos do contêiner */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Aplica uma sombra suave para profundidade */
+  text-align: center; /* Centraliza o texto dentro do contêiner */
+}
+
+/* Estilização dos campos de entrada (inputs) */
+input {
+  width: 100%; /* Faz com que os inputs ocupem toda a largura disponível */
+  padding: 10px; /* Espaçamento interno dos inputs */
+  margin: 10px 0; /* Espaço acima e abaixo de cada input */
+  border: 1px solid #ccc; /* Borda de cor cinza clara */
+  border-radius: 5px; /* Bordas levemente arredondadas */
+}
+
+/* Estilização do botão de envio */
+button {
+  width: 100%; /* Botão ocupa toda a largura do contêiner */
+  padding: 10px; /* Espaçamento interno do botão */
+  background: #007bff; /* Define a cor de fundo azul para o botão */
+  color: white; /* Cor do texto do botão */
+  border: none; /* Remove a borda padrão do botão */
+  border-radius: 5px; /* Bordas arredondadas do botão */
+  cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
+}
+
+/* Efeito visual do botão quando o mouse passa sobre ele */
+button:hover {
+  background: #0056b3; /* Muda a cor do botão para um azul mais escuro no hover */
+}
+
+/* Estilização da área que contém os links de "Esqueceu a senha?" e "Criar conta" */
+.links {
+  margin-top: 10px; /* Espaço acima da seção de links */
+}
+
+/* Estilização dos links */
+.links a {
+  text-decoration: none; /* Remove o sublinhado padrão dos links */
+  color: #007bff; /* Define a cor dos links */
+}
+
+/* Efeito visual dos links ao passar o mouse */
+.links a:hover {
+  text-decoration: underline; /* Sublinha os links no hover */
+}
